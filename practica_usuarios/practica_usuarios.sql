@@ -66,3 +66,17 @@ WITH CHECK OPTION;
 -- Tarea 5
 
 -- Parte 1
+
+
+
+
+-- Parte 2
+
+-- No se debe dar ALL PRIVILEGES porque sería como elo usuario root y podria modificar y borrar cualquier tabla,
+-- si no es un administrador de bases de datos sin querer podria borrar una tabla o peor, la base de datos y cgarla.
+
+-- Parte 3
+
+-- Podria meter articulos que sean mayor al precio establecido a la vista que en este caso es 50€ 
+-- y no tendria sentido la existencia de la vista.
+
